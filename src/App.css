@@ -34,7 +34,7 @@ p{
   font-weight: bold;
   font-size:18px;
 }
-.container p:nth-of-type(1):first-letter{
+.container:not(.choose-story-container) p:nth-of-type(1):first-letter{
   background: -webkit-linear-gradient(-180deg, orangered 0%, hotpink 100%);
   padding: 5px 10px;
   color: white;
@@ -50,6 +50,11 @@ p{
   padding: 25px;
   border: 2px solid black;
   border-radius: 10px;
+}
+.choose-story-container p{
+  font-size: 14px;
+  color:grey;
+  font-style: italic;
 }
 button{
   border: none;
