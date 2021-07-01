@@ -1,7 +1,7 @@
 import React from "react"
 
 function handleClick() {
-    alert("clicked story 1")
+    alert("clicked the button")
 }
 
 function ChooseStory() {
