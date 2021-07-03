@@ -31,7 +31,7 @@ function Form({setActiveView,id}) {
     }
 
     return ( 
-            <div>
+            <div class="form-container">
             
                 <input id="v1"type="text" placeholder="verb" onChange={handleInput}></input>
                 <input id="c1"type="text" placeholder="color" onChange={handleInput}></input>

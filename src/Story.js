@@ -1,9 +1,5 @@
 import React from "react"
 
-function handleClick(){
-    
-}
-
 function Story({story, id, onClick}) {
 
     return ( 
