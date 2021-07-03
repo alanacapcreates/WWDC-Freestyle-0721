@@ -69,16 +69,15 @@ button{
   padding:10px 20px;
   font-size: 16px;
   cursor: pointer;
+  width: 8em;
 }
 /* INPUT FORM */
-.form-container{
-  display: flex;
-  flex-direction: column;
-  width: 50vw;
-  align-items: center;
-  background:burlywood;
-}
+
 input{
   display:block;
   margin-bottom: 30px;
+  width: 8em;
+  height:1em;
+  font-size: 18px;
+  padding:5px 20px;
 }
