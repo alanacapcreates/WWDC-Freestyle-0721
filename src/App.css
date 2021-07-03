@@ -65,3 +65,7 @@ button{
   font-size: 16px;
   cursor: pointer;
 }
+input{
+  display:block;
+  margin-bottom: 30px;
+}
