@@ -1,18 +1,22 @@
 import Intro from './Intro'
+import Menu from './Menu'
+import Form from './Form'
 import Story from './Story'
 import storyData from './storyData'
-
+import React,{useState, useEffect} from "react"
 import './App.css';
 
 function App() {
-  const storyComponents = storyData.map(item => <Story key ={item.id} story={item}/>)
+  const [activeView,setActiveView] = useState()
+  useEffect(() =>{
+    setActiveView(<Menu setActiveView={setActiveView}/>)
+  },[]) 
+
   return (
     <div>
       <Intro />
-      <div class=" container choose-story-container">
-            <h2>Choose a Mad Lib story below</h2>
-            {storyComponents}
-      </div>
+      {/* <Menu /> */}
+      {activeView}
     </div>
   );
 }
