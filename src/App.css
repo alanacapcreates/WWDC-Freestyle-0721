@@ -13,6 +13,28 @@ html, body {
   flex-direction: column;
   justify-content: center;
 }
+.intro{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  /* border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1; */
+  /* border-right: 4px solid black; */
+  border-style: solid;
+  border-width: 5px;
+  border-image: linear-gradient(to bottom, hotpink, orangered) 1;
+  border-top:none;
+  border-right: none;
+  border-bottom: none;
+  width:fit-content;
+}
+.intro #intro-header{
+  margin-left: 1em;
+}
+.intro #intro-challenge{
+  margin-left: 2em;
+}
+.intro #intro-updated{
+  margin-left: 3em;
+}
 .gradient{
   background-image: linear-gradient(to right, hotpink, orangered);
   -webkit-background-clip: text;
@@ -61,6 +83,14 @@ p{
   color:grey;
   font-style: italic;
 }
+.form-container{
+  padding: 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width:25vw;
+  align-items: center;
+}
+
 button{
   border: none;
   border-radius: 50px;
@@ -74,7 +104,6 @@ button{
 /* INPUT FORM */
 
 input{
-  display:block;
   margin-bottom: 30px;
   width: 8em;
   height:1em;
