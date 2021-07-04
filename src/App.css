@@ -110,3 +110,16 @@ input{
   font-size: 18px;
   padding:5px 20px;
 }
+/* GENERATED STORY */
+.story-container{
+  width:75vw;
+  margin-bottom: 30px;
+  align-items: center;
+  padding: 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.updatedStory{
+  font-size: 16px;
+  color: hotpink;
+}
