@@ -21,7 +21,7 @@ export const storyData = [
 
 export const storyConfig = {
     1: {
-        storyText:"Today my $. The ^ is nice."
+        storyText:"It was a $A in London. Leanne and Michael are working on Scrimba challenges, but I have the day off! I think I might try to $V to the $P so I can have a yummy lunch. Once I get lunch, I still have $N hours until I need to go to my next Scrimba lesson."
     },
     2:{
         storyText:"This is story 2"
