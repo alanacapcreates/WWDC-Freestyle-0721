@@ -15,8 +15,15 @@ console.log(arrStory)
 /**
  *  $A = adjective
  *  $V = verb
- *  $P = place
+ *  $P (2) = place
  *  $N = number
+ *  $NM (2) = name
+ *  $AM = animal
+ *  $C = color
+ *  $ADV = adverb
+ *  $O (2) = object
+ *  $DR = drink
+ *  $D = device
  */
 console.log(libMap)
 for(let i=0;i<arrStory.length;i++){
@@ -29,8 +36,38 @@ for(let i=0;i<arrStory.length;i++){
   else if(arrStory[i] ==="$P"){
     arrStory[i] = libMap["p1"]
   }
-  else if(arrStory[i] ==="$N"){
+  else if(arrStory[i] === "$P2"){
+    arrStory[i] = libMap["p2"]
+  }
+  else if(arrStory[i] ==="$N1"){
     arrStory[i] = libMap["n1"]
+  }
+  else if(arrStory[i] ==="$N"){
+    arrStory[i] = libMap["nm"]
+  }
+  else if(arrStory[i] ==="$N2"){
+    arrStory[i] = libMap["nm2"]
+  }
+  else if(arrStory[i] ==="$AM"){
+    arrStory[i] = libMap["am1"]
+  }
+  else if(arrStory[i] ==="$C"){
+    arrStory[i] = libMap["c1"]
+  }
+  else if(arrStory[i] === "$ADV"){
+    arrStory[i] = libMap["adv1"]
+  }
+  else if(arrStory[i] === "$O"){
+    arrStory[i] = libMap["o1"]
+  }
+  else if(arrStory[i] === "$O2"){
+    arrStory[i] = libMap["o2"]
+  }
+  else if(arrStory[i] === "$DR"){
+    arrStory[i] = libMap["dr"]
+  }
+  else if(arrStory[i] === "$D"){
+    arrStory[i] = libMap["d"]
   }
 }
 let updatedStory = ""
