@@ -1,8 +1,5 @@
 import Intro from './Intro'
 import Menu from './Menu'
-import Form from './Form'
-import Story from './Story'
-import storyData from './storyData'
 import React,{useState, useEffect} from "react"
 import './App.css';
 

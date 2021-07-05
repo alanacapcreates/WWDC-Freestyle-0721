@@ -1,7 +1,5 @@
 import React, { useState } from "react"
 import CompletedStory from "./CompletedStory"
-import { storyConfig } from "./storyData"
-
 const defaultLibMap = {
     a1: "",
     v1: "",
